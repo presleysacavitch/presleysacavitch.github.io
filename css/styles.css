@@ -386,16 +386,17 @@ nav a:hover {
 
 /* SECTION LABELS */
 
-.case-section .case-section-label {
+.case-section-label {
   margin-bottom: 45px;
 }
 
-.case-section-label span:first-child {
+.case-section-label span {
+  font-family: "DM Mono", monospace;
   font-size: 15px;
   font-weight: 500;
-  letter-spacing: 0.055em;
+  letter-spacing: 0.06em;
+  color: var(--accent);
 }
-
 
 /* =====================================
    MEDIA PLACEHOLDERS
@@ -620,6 +621,69 @@ nav a:hover {
   color: var(--muted);
   font-size: 13px;
 }
+
+.manufacturing-visit {
+  width: min(100%, 700px);
+  margin: 0 auto;
+}
+
+.expo-photo {
+  width: min(100%, 650px);
+  margin: 80px auto 0;
+}
+
+.expo-caption {
+  width: min(100%, 650px);
+  margin: 12px auto 0;
+
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.validation-feature {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 40px;
+  align-items: end;
+
+  margin-bottom: 60px;
+}
+
+.validation-text {
+  padding-top: 18px;
+  border-top: 1px solid var(--text);
+}
+
+.validation-text span {
+  display: block;
+
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.075em;
+
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.validation-text p {
+  max-width: 330px;
+
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.final-assembly-image {
+  width: min(100%, 500px);
+  margin: 0 auto;
+}
+
+.final-assembly-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* MOBILE */
 
 @media (max-width: 720px) {
@@ -743,6 +807,10 @@ nav a:hover {
   .media-final {
     min-height: 380px;
   }
+  .validation-feature {
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
   
 }
 
