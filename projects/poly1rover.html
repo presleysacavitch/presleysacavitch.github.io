@@ -173,118 +173,135 @@
   </section>
 
 
-    <!-- =====================================
-        02 / HUB DESIGN
-        ===================================== -->
+      <!-- =====================================
+      02 / HUB DESIGN
+      ===================================== -->
 
-    <section class="case-section hub-section">
+  <section class="case-section hub-section">
 
-      <div class="case-section-label">
-        <span>HUB DESIGN</span>
-        <span>02</span>
+    <div class="case-section-label">
+      <span>HUB DESIGN</span>
+      <span>02</span>
+    </div>
+
+
+    <!-- MAIN MACHINED HUB IMAGE -->
+      <div class="case-media media-large hub-main-image">
+      <img
+        src="../assets/rover/hub/hub-metal-front.jpg"
+       alt="Machined Poly1Rover titanium hub"
+      >
+    </div>
+
+
+    <!-- SUPPORTING HUB IMAGES -->
+    <div class="media-grid">
+
+      <div class="case-media">
+        <img
+          src="../assets/rover/hub/hub-annotated.png"
+          alt="Annotated CAD model of the Poly1Rover wheel hub"
+        >
       </div>
 
-
-
-
-      <div class="media-grid">
-
-        <div class="media-placeholder">
-          HUB CAD
-        </div>
-
-        <div class="media-placeholder">
-          MACHINED HUB PHOTO
-        </div>
-
+      <div class="case-media">
+        <img
+          src="../assets/rover/hub/hub-on-wheel.png"
+          alt="Poly1Rover hub installed in the wheel prototype"
+        >
       </div>
 
+    </div>
 
-      <div class="media-placeholder media-large">
-        HUB + MOTOR SHAFT ASSEMBLY
+
+    <!-- HUB DESIGN DETAILS -->
+    <div class="technical-callouts">
+
+      <div>
+        <span>D-SHAFT INTERFACE</span>
+        <p>
+          A matching D-shaped bore transfers motor torque
+          through the hub while maintaining shaft alignment.
+        </p>
       </div>
 
-
-      <div class="technical-callouts">
-
-        <div>
-          <span>D-SHAFT</span>
-          <p>Short technical explanation.</p>
-        </div>
-
-        <div>
-          <span>SET SCREW</span>
-          <p>Short technical explanation.</p>
-        </div>
-
-        <div>
-          <span>FAIL-SAFE PIN</span>
-          <p>Short technical explanation.</p>
-        </div>
-
-        <div>
-          <span>6× M3 INTERFACE</span>
-          <p>Short technical explanation.</p>
-        </div>
-
+      <div>
+        <span>SET SCREW</span>
+        <p>
+          A radial set screw secures the hub to the motor shaft
+          during normal operation.
+        </p>
       </div>
 
-    </section>
-
-
-
-    <!-- =====================================
-        03 / ENGINEERING ANALYSIS
-        ===================================== -->
-
-    <section class="case-section analysis-section">
-
-      <div class="case-section-label">
-        <span>ANALYSIS</span>
-        <span>03</span>
+      <div>
+        <span>FAIL-SAFE PIN</span>
+        <p>
+          A transverse pin provides secondary mechanical retention
+          if the primary shaft connection loosens.
+        </p>
       </div>
 
-      
-
-
-      <div class="analysis-grid">
-
-        <div class="analysis-block">
-
-          <div class="media-placeholder">
-            STRUCTURAL FEA
-          </div>
-
-          <div class="result-placeholder">
-            STRUCTURAL RESULT
-          </div>
-
-        </div>
-
-
-        <div class="analysis-block">
-
-          <div class="media-placeholder">
-            THERMAL FEA
-          </div>
-
-          <div class="result-placeholder">
-            THERMAL RESULT
-          </div>
-
-        </div>
-
+      <div>
+        <span>M3 WHEEL INTERFACE</span>
+        <p>
+          Six M3 fasteners connect the hub to the wheel through
+          a controlled bolt pattern for repeatable assembly.
+        </p>
       </div>
 
+    </div>
 
-      <div class="media-placeholder media-wide-short">
-        HAND CALCULATIONS / SUPPORTING ANALYSIS
+  </section>
+
+      <!-- =====================================
+      03 / ANALYSIS
+      ===================================== -->
+
+  <section class="case-section analysis-section">
+
+    <div class="case-section-label">
+      <span>ANALYSIS</span>
+      <span>03</span>
+    </div>
+
+
+    <div class="case-media analysis-main-image">
+      <img
+        src="../assets/rover/analysis/wheel-static-fea.png"
+        alt="SolidWorks static displacement analysis of the Poly1Rover wheel"
+      >
+    </div>
+
+
+    <div class="technical-callouts">
+
+      <div>
+        <span>STATIC FEA</span>
+        <p>
+          SolidWorks FEA was used to study wheel deformation
+          and identify how loads traveled through the spiral spokes and rim.
+        </p>
       </div>
 
-    </section>
+      <div>
+        <span>DESIGN ITERATION</span>
+        <p>
+          Analysis was used to refine spoke geometry and increase
+          compliance while maintaining structural strength.
+        </p>
+      </div>
 
+      <div>
+        <span>FINAL VERIFICATION</span>
+        <p>
+          Later structural analysis verified the wheel and hub assembly
+          remained below yield under the final design load case.
+        </p>
+      </div>
 
+    </div>
 
+</section>
     <!-- =====================================
         04 / DFM + MANUFACTURING
         ===================================== -->

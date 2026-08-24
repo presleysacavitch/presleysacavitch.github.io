@@ -749,3 +749,11 @@ nav a:hover {
 .project-link {
   display: block;
 }
+.hub-main-image {
+  width: min(100%, 800px);
+  margin: 0 auto 28px;
+}
+.analysis-main-image {
+  width: min(100%, 950px);
+  margin: 0 auto;
+}
